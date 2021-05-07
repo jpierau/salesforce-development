@@ -131,6 +131,283 @@
             <h2 id="hippopotamus">Hippopotamus</h2>
             <p>AHippopotamus is Greek for “river horse,” and the animal has been known since ancient times. Hippopotamuses are often seen basking on the banks or sleeping in the waters of rivers, lakes, and swamps next to grasslands. Because of their great size and aquatic habits, they are safe from most predators but human beings, who have long valued their hide, meat, and ivory and at times have resented them for ruining crops. Once ranging over the entire continent and beyond, hippopotamuses (or “hippos”) now live in eastern, central, and parts of southern Africa.</p>
     </p>
+    <HR STYLE="width: 100%; height: 1px; color: #080808; background-color: #080808; border: solid #080808 0px;">
+    <p>
+        <h1>Opdracht 3.1 Input text field</h1> 
+    
+        <form>
+            First name:
+            <input type="text" name="firstname">
+            <br><br>
+            Last name:
+            <input type="text" name="lastname"><br>
+      </form>
+    </p>
+    <p>
+        <h1>Opdracht 3.2 Input other input fields</h1>
+        <h2>Opdracht 3.2 Input radiobutton</h2>
+        <form>
+            <input type="radio" name="gender" value="male" checked> Male<br>
+            <input type="radio" name="gender" value="female"> Female<br>
+            <input type="radio" name="gender" value="other"> Other
+          </form>
+    </p>
+    <p>
+        <h2>Opdracht 3.2 Input checkbox</h2>
+        <form>
+            <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+            <input type="checkbox" name="vehicle2" value="Car"> I have a car
+          </form>
+    </p>
+    <p>
+        <h2>Opdracht 3.2 Input password</h2>
+        <form>
+            User name:<br>
+            <input type="text" name="userid">
+            <br>
+            User password:<br>
+            <input type="password" name="psw">
+            </form>
+            
+    </p>
+    <p>
+        <h2>Opdracht 3.2 Input reset</h2>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value=""><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value=""><br><br>
+            <input type="reset">
+        </form> 
+    </p>
+    <p>
+        <h2>Opdracht 3.2 Input Submit</h2>
+        <form action="/contact" method="POST"> 
+            <label for="firstname">Male</label>          
+            <input type="text" name="firstname" value="firstname"><br><br>
+            <label for="lastname">Lastname</label>
+            <input type="text" name="lastname" value="lastname"><br><br>
+            <input type="submit" value="Submit">
+        </form> 
+    </p>
+    <p>
+        <h2>Opdracht 3.2 Input Date</h2>
+        <form>
+            <label for="date">Datum</label>
+            <input type="date" name="date">
+          </form>
+    </p>
+    <p>
+        <h2>Opdracht 3.2 Input Search</h2>
+        <form="/seacht" method="GET">
+            <label for="search">Search</label>
+            <input type="search" name="search">
+            <input type="submit">
+        </form>
+    </p>
+    <p>
+        <h2>Opdracht 3.2 Input Time</h2>
+        <form>
+            <label for="appt">Select a time:</label>
+            <input type="time" id="appt" name="appt">
+            <input type="submit" value="Submit">
+         </form>
+    </p>
+    <p>
+        <h2>Opdracht3.2 Input Hidden</h2>
+        <form>
+            First name:
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="hidden" id="custId" name="custId">
+          </form>
+    </p>
+    <p>
+        <h2>Opdracht 3.2 Input Email</h2>
+        <form>
+            E-mail:
+            <input type="email" name="email">
+        </form>
+    </p>
+    <p>
+        <H1>Opdracht 3.3 Input Email met Submit</H1>
+        <form>
+            E-mail:
+            <input type="email" name="email">
+            <input type="submit">
+        </form>
+        <h2>Als je random tekst invoert en verzend krijg je de volgende melding: Gebruik een @ in het email adres</h2>
+    </p>
+    <p>
+        <h1>Opdracht 3.4 Formulier groeperen</h1>
+        <form>
+            Persoon gegevens<br><br>
+            Achternaam:<input type="tekst" name="achternaam" value="Achternaam"><br><br>
+            Voornaam:<input type="text" name="voornaam" value="Voornaam"><br><br>
+            Geboortedatum:<input type="date" name="geboortedatum" value="geboortedatum"><br><br>
+            M:<input type="radio" name="gender" value="male">V:<input type="radio" name="gender" value="fmale"><br><br>
+            Postcode:<input type="number" class="postcode" pattern="[0-9]{4}" placeholder="4 nummers"/> 
+			<input type="text" class="postcode" pattern="[A-Z]{2}" placeholder="2 hoofdletters"/><br><br>
+            Adres:<input type="text" name="adres" value="adres"><br><br>
+            <input type="submit"> <input type="reset">
+        </form>
+    </p>
+    <p>
+        <h1>Opdracht 3.5 Maak een drop down list</h1>
+            <select>
+                <option value="man">Man</option>
+                <option value="vrouw">Vrouw</option>
+                <option value="other">Other</option>
+            </select>
+        
+    </p>
+    <p>
+        <h1>Opdracht 3.6 Noem een situatie voor het  gebruik dropdown list, radio buttons en checkboxes met uitleg?</h1>
+        <ul>
+            <li>Checkbox - Het belangrijkste om in gedachten te houden met een selectievakje is dat er maar één label is, maar de gebruiker kiest tussen twee verschillende statussen. Gebruik selectievakjes alleen als het duidelijk is waar de gebruiker tussen kiest: Wat er gebeurt als het selectievakje is aangevinkt, moet duidelijk zijn; wat er gebeurt als het vakje niet is aangevinkt, moet ook duidelijk zijn.</li>
+            <li>Radio button lists worden gebruikt wanneer de gebruiker een enkele optie uit een lijst met opties moet selecteren. Als u een optie heeft die kan worden in- of uitgeschakeld, maar waarvan de twee verschillende statussen moeilijk uit te leggen zijn met een enkele optie, moet u een lijst met keuzerondjes met twee opties gebruiken in plaats van een selectievakje.</li>
+            <li>Met een (dropdownlist) vervolgkeuzelijst kan de gebruiker een enkele optie selecteren uit een groot aantal items. Door de doorzoekbare lijst van Appway te gebruiken, kunt u gebruikers zelfs toestaan ​​te typen wat ze zoeken in de vervolgkeuzelijst en een lijst met overeenkomende resultaten te krijgen.</li>
+        </ul>
+    </p>    
+    <p>
+        <h1>Opdracht 3.7 Reserveringsformulier om een sport te reserveren</h1>
+        <form>
+            Reserveringsformulier<br><br>
+            Achternaam:<input type="tekst" name="achternaam" value="Achternaam"><br><br>
+            Voornaam:<input type="text" name="voornaam" value="Voornaam"><br><br>
+            Bent u reeds lid?
+            <select>
+                <option value="ja">Ja</option>
+                <option value="nee">Nee</option>                
+            </select><br><br>
+            E-mail:
+            <input type="email" name="email"><br><br>
+            Voor welke sport reserveert U?
+            Tafeltennis:<input type="radio" name="sport" value="Tafeltennis">
+            Badminton:<input type="radio" name="sport" value="Badminton">
+            Squash:<input type="radio" name="sport" value="Squash"><br><br>
+            Daum & tijd reservering: <input type="datetime-local" name="datetime-local">
+            Akkoord reservering: <input  type="checkbox" required><br><br>
+            <input type="submit" value="Verzenden">            
+        </form>
+    </p>
+    <p>
+        <h1>Opdracht 3.8 Reserverings formulier om een boek te reserveren</h1>
+        <form action="reservation.php" method="post">  
+            <label for="name">Naam:</label>
+            <input type="text" id="name" name="visitor_name" placeholder="John Doe" pattern=[A-Z\sa-z]{3,20} required><br><br>
+            <label for="phone">Telefoonnr:</label>
+            <input type="tel" id="phone" name="visitor_phone" required><br><br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="visitor_email" placeholder="john.doe@email.com" required><br><br>
+            <label for="name">Titel Boek:</label>
+            <input type="text" id="name" name="titel boek" required><br><br>
+            <label for="number">Aantal boeken:</label>
+            <input type="number" id="number" name="aantal_boeken" placeholder="1" max="5"min="1"><br><br>  
+            <button type="submit">Verzenden</button>
+        </form>
+    </p>
+    <p>
+        <h1>Opdracht 3.10 Definitie van tabel elementen.</h1>
+        <p>* Table - Een tabel is in beginsel een rij waarbij verschillende soorten waardes in aparte kolommen staan.</p>
+        <p>* Thead - Definieert de rijen die de titelcellen van een tabel bevatten.</p>
+        <p>* Tbody - Definieert de feitelijke gegevens van een tabel (bevat de inhoud van de tabel).</p>
+        <p>* Tfoot - Definieert de rijen die de verschillende kolommen afsluiten.</p>
+        <p>* Th - Definieert een titelcel van een tabel.</p>
+        <p>* Tr - Definieert het begin en het einde van een rij.</p>
+        <p>* Td - Definieert een cel uit een rij van een tabel.</p>
+    </p>
+    <p>
+        <h1>Opdracht 3.11 Maak een tabel met table> element</h1>
+        <table>
+            <tr>
+            <th>Voornaam</th>
+            <th>Achternaam</th>
+            <th>Leeftijd</th>
+            <th>Telefoonnr</th>
+            </tr>
+            <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>41</td>
+            <td>+31 12345678</td>
+            </tr>
+            <tr>
+            <td>Steven</td>
+            <td>Smith</td>
+            <td>32</td>
+            <td>+31 12345678</td>
+            </tr>
+            <tr>
+            <td>Alexander</td>
+            <td>Smith</td>
+            <td>15</td>
+            <td>+31 12345678</td>
+            </tr>
+            </table >
+    </p>
+    <p>
+        <h1>Opdracht 3.12</h1>
+        <table>
+            <tr>
+            <th>MA</th>
+            <th>DI</th>
+            <th>WO</th>
+            <th>DO</th>
+            <th>VR</th>
+            </tr>
+            <tr>
+            <td>Afspraak met tandarts</td >
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Sporten</td>
+            </tr>
+            <tr>
+            <td></td >
+            <td>Huiswerk maken</td>
+            <td>Werken</td>
+            <td>Werken</td>
+            <td></td>
+            </tr>
+            <tr>
+            <td>Afspraak met tandarts</td >
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Werken bij vrienden</td>
+            </tr>
+        </table >
+    </p>
+    <p>
+        <h1>Opdracht 3.13 Colspan vs Rowspan</h1>
+        <p>Voor Racket sport is rowspan 3 en voor Ball sport is rowspan 3</p>
+        <p>Met het COLSPAN attribuut kan aangegeven worden hoeveel opeenvolgende cellen in horizontale richting samengevoegd moeten worden tot één cel.</p>
+        <p>Met het ROWSPAN attribuut kan aangegeven worden hoeveel opeenvolgende cellen in verticale richting samengevoegd moeten worden tot één cel.</p>
+    </p>
+    <p>
+        <h1>Opdracht 3.14 Maak zelf een tabel met colspan en rowspan</h1>
+        <table border="1" cellpadding="10">
+            <tr>
+                <th colspan="3">Users Info</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>John Carter</td>
+                <td>johncarter@mail.com</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Peter Parker</td>
+                <td>peterparker@mail.com</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>John Rambo</td>
+                <td>johnrambo@mail.com</td>
+            </tr>
+        </table>       
+    </p>
+    
 </body>
 </html>
 
