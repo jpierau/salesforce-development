@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Opdracht 4</title>
+
+        <style>
+        .pseudo {
+            position: relative;
+            text-align: center;
+            font-size: x-large;
+            background-color: lightgreen;
+            color: white;
+            width: 500px;
+            height: 50px;
+            border: 10px;
+            
+        }
+        
+        
+        .pseudo::after {
+            position: absolute;
+            content: "";
+            border-top: 8px solid orange;
+            border-left: 8px solid orange;
+            height: 41px;
+            width: 41px;
+            left: 0px
+          }
+        
+        .pseudo::before {
+            position: absolute;
+            content: "";
+            border-bottom: 8px solid orange;
+            border-right: 8px solid orange;
+            height: 41px;
+            width: 41px;
+            left: 452px;
+          }
+          .tekst {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: xx-large;
+            color:white;
+            top: 73px;
+            left: 226px;
+            position: absolute;
+          }
+            </style>
+</head>
+<body>
+
+    <h2>Opdracht 4.4 Maak dit voorbeeld na.</h2>
+
+    <div class="pseudo">
+    </div>
+    <span class="tekst">Button</span>
+       
+
+</body>
+</html>
