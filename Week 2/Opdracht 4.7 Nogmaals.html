@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  
+  <title>Opdracht 4.7 Maak voorbeeld na.</title>
+  <style>
+    .ster {
+        position: relative;
+        width: 230px;
+        height: 230px;
+        background-color: red;
+        top: 60px;
+        left: 100px;
+    }
+
+    .ster::before {
+        position: absolute;
+        width: 230px;
+        height: 230px;
+        background-color: red;
+        content: "";
+        transform: rotate(35deg);
+    }
+
+    .ster::after {
+        position: absolute;
+        width: 230px;
+        height: 230px;
+        background-color: red;
+        content: "";        
+        transform: rotate(70deg);
+    }
+  </style>
+</head>
+<h2>Opdracht 4.7 Maak voorbeeld na.</h2>
+<div class="ster">    
+</div>
+
+</body>
+
+</html>
