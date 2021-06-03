@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<meta charset = "UTF-8">
+<meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+<title> Document </title>
+</head>
+<body>
+
+<input type="number" id="number">
+<button id="btn" onclick="checkNumber()">Button</button>
+<div>
+    <span id="label"></span>
+</div>
+<script>
+    function checkNumber() {
+        if(document.getElementById("number").value === "3") {
+            document.getElementById("label").innerHTML = "Het ingevoerde getal is gelijk aan 3";
+        } else if(document.getElementById("number").value >= "11") {
+            document.getElementById("label").innerHTML = "Het ingevoerde getal is groter of gelijk aan 11";
+        } 
+        else { 
+            document.getElementById("label").innerHTML = "";
+        }
+    }
+</script>
+</body>
+</html>
